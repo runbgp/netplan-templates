@@ -1,0 +1,11 @@
+network:
+  ethernets:
+    ens192:
+      addresses:
+      - 10.0.10.20/24
+      gateway4: 10.0.10.1
+      nameservers:
+        addresses:
+        - 8.8.8.8
+        - 8.8.4.4
+  version: 2
